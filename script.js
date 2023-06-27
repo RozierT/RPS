@@ -1,0 +1,1 @@
+let sign = prompt("Pick between R, P, or S");
