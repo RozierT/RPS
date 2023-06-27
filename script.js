@@ -1,4 +1,4 @@
-function getRandomPlay() {
+function getRandomNum() {
     var randomNum = Math.random();
     
     if (randomNum < 1/3) {
@@ -10,5 +10,6 @@ function getRandomPlay() {
     }
 }
 
-var selectedOption = getRandomPlay();
+var selectedOption = getRandomNum();
+
 console.log(selectedOption);
