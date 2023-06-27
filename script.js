@@ -1,3 +1,4 @@
+
 function getRandomNum() {
     var randomNum = Math.random();
     
@@ -11,5 +12,18 @@ function getRandomNum() {
 }
 
 var selectedOption = getRandomNum();
-
 console.log(selectedOption);
+
+function letsPlay() {
+    var attempt = selectedOption;
+
+    if (attempt === "1") {
+        console.log("rock");
+    } else if (attempt === "2") {
+        console.log("paper");
+    } else {
+        console.log("scissors");
+    }
+}
+
+letsPlay();
